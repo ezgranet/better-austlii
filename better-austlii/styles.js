@@ -1,6 +1,6 @@
 function numberOrderedList(ol) {
 ol.classList.add('paragraphs');
-let liCount = 0;
+let liCount = 0 ;
 ol.childNodes.forEach(function (node) {
 if (node.nodeName !== 'LI') {
 return;
@@ -12,3 +12,5 @@ if (node.hasAttribute('value')) {
         node.innerHTML = '<span class="paragraph_number"><b>[' + ( liCount ) + ']&nbsp;</b></span>' + node.innerHTML;
 });
 }
+let olNodes = Array.from(document.getElementsByTagName('ol'));
+olNodes.forEach(ol => numberOrderedList(ol));

@@ -24,9 +24,20 @@
   font-weight: bold;
   font-style: italic;
 }
- 
+.document .the-document ol li::before  {
+    content:  "" !important;
+    margin-right:  !important;
+}
+.the-document ol li:before,.document .the-document ol li:before {
+    content: "" !important;
+}
+
+.the-document ol {    list-style-type: none;}
 
 
+.the-document li {text-align: justify !important;
+}
+.the-document {margin-left: 60px !important;}
 
 .cases.document {}
 
