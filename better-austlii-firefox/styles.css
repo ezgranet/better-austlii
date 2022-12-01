@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-Regular.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-Italic.otf");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "palatine-parliamentary";
+  src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/final-palp/PalatineP-BoldItalic.otf");
+  font-weight: bold;
+  font-style: italic;
+}
+.document .the-document ol li::before  {
+    content:  "" !important;
+    margin-right:  !important;
+}
+.the-document ol li:before,.document .the-document ol li:before {
+    content: "" !important;
+}
+
+.the-document ol {    list-style-type: none;}
+
+
+.the-document li {text-align: justify !important;
+}
+.the-document {margin-left: 60px !important;}
+
+.cases.document {}
+
+#page-main > article * {   font-family: "Sabon", "Sabon Next Com",   "Sabon LT Std", "Sabon Next", "Sabon eText", "Sabon LT", "Sabon Linotype", "palatine-parliamentary", Cardo, serif !important;
+font-variant-ligatures: common-ligatures !important;
+    font-feature-settings: "kern","liga","pnum", "onum", "ss04" off !important;
+
+}   
+
+
