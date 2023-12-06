@@ -47,4 +47,6 @@ font-variant-ligatures: common-ligatures !important;
 
 }   
 
+.the-document  > p  {text-align: justify !important;
+margin-left: 80px !important;}
 
