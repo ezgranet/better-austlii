@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Better AUSTLII",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "The extension changes the typography on AustLII to make it more visually appealing.",
   "icons": { "16": "icon16.png",
            "32": "icon32.png",
@@ -10,6 +10,6 @@
     "css": ["styles.css"],
     "js": ["styles.js"],
 
-    "matches": [ "http://www6.austlii.edu.au/*", "http://www8.austlii.edu.au/*", "http://www.austlii.edu.au/*", "https://www.austlii.edu.au/*", "http://classic.austlii.edu.au/*", "http://www.classic.austlii.edu.au/*", "http://www..austlii.edu.au/*"]
+    "matches": [ "http://www6.austlii.edu.au/*", "http://www8.austlii.edu.au/*", "http://www.austlii.edu.au/*", "https://www.austlii.edu.au/*", "http://classic.austlii.edu.au/*", "http://www.classic.austlii.edu.au/*", "http://www.austlii.edu.au/*", "https://www.austlii.edu.au/*", "https://austlii.edu.au/*"]
   }]
 }
